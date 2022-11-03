@@ -1,0 +1,39 @@
+textarea {
+    min-height: 400px;
+}
+
+.email-item {
+    border: 1px solid gray;
+    width: 100%;
+}
+
+.clickable {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.email-item-sender {
+    display: inline-block;
+    min-width: 200px;
+    font-weight: bold;
+}
+
+.email-item-timestamp {
+    float: right;
+}
+
+.email-item-read {
+    background-color: gray;
+}
+
+.email-info {
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.action-buttons {
+    display: inline-block;
+    margin-right: 1px;
+    vertical-align: middle;
+}
